@@ -30,7 +30,7 @@ phases:
       # invalidate the CloudFront cache for index.html and service-worker.js
       # to force CloudFront to update its edge locations with the new versions
       - >
-        aws cloudfront create-invalidation --distribution-id ETX47I8H1Z8XX 
+        aws cloudfront create-invalidation --distribution-id E10R9HDMO0YVNQ 
         --paths /index.html /service-worker.js        
 artifacts:
   files:
